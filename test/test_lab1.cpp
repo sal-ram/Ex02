@@ -2,7 +2,7 @@
 
 #include "gtest/gtest.h"
 
-TTEST(task1, test1)
+TEST(task1, test1)
 {
 	ASSERT_NEAR(2.14476105, calc(4.6), 0.00000001);
 
