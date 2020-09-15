@@ -1,4 +1,5 @@
 #pragma once
+#include <math.h>
 double average(double x, double y);
 bool good(double guess, double x);
 double improve(double guess, double x);
